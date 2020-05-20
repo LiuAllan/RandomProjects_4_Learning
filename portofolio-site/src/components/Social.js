@@ -10,7 +10,7 @@ class Social extends React.Component
 					<i class="fab fa-github"></i>
 				</a>
 
-				<a href="www.linkedin.com/in/liuallan" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.linkedin.com/in/liuallan" target="_blank" rel="noopener noreferrer">
 					<i class="fab fa-linkedin-in"></i>
 				</a>
 

@@ -13,7 +13,7 @@ class Skills extends React.Component
 	render()
 	{
 		return (
-			<div className="condiv">
+			<div className="condiv skills">
 				<h1 className="subtopic">My Skills</h1>
 				<ul>
 					{this.state.myskills.map(
