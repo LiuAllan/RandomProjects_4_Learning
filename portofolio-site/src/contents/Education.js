@@ -6,7 +6,7 @@ class Education extends React.Component
 	render()
 	{
 		return(
-			<div className="condiv">
+			<div className="condiv education">
 				<h1 className="subtopic">My Education</h1>
 				<Widecard 
 					title="Bachelors of Computer Science | Software Systems Option"
@@ -14,7 +14,6 @@ class Education extends React.Component
 					from="2013"
 					end="2020"
 				/>
-
 				<Widecard 
 					title="British Columbia Certificate of Graduation"
 					school="Lambrick Park Secondary School"

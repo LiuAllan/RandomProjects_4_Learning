@@ -1,6 +1,7 @@
 //import React, {Component} from 'react';
 import React from 'react';
 import Navitem from './Navitem';
+import { push as Menu } from 'react-burger-menu';
 
 //Styling controlled by App.css
 class Navbar extends React.Component
@@ -27,16 +28,13 @@ class Navbar extends React.Component
 	render()
 	{
 		return (
-			<nav>
-				<ul>
+			<Menu>
 					<Navitem item="Home" tolink="/" activec={this.activeitem} />
 					<Navitem item="About" tolink="/about" activec={this.activeitem} />
 					<Navitem item="Education" tolink="education" activec={this.activeitem} />
 					<Navitem item="Skills" tolink="skills" activec={this.activeitem} />
-					<Navitem item="Projects" to link="projects" activec={this.activeitem} />
-					<Navitem item="Contact" tolink="contact" activec={this.activeitem} />
-				</ul>
-			</nav>
+					<Navitem item="Contact" tolink="contact" activec={this.activeitem} />		
+        	</Menu>
 			);
 	}
 }

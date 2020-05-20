@@ -6,7 +6,7 @@ class Contact extends React.Component
 	render()
 	{
 		return (
-			<div className="condiv">
+			<div className="condiv contact">
 				<h1 className="subtopic">Contact Me</h1>
 				<h3>Phone : (778)967-2371</h3>
 				<h3>Email : allanliu@uvic.ca</h3>
