@@ -5,7 +5,7 @@ class About extends React.Component
 	render()
 	{
 		return (
-			<div className="condiv about">
+			<div className="condiv about" id="page-wrap">
 				<h1 className="subtopic">About Me</h1>
 				<h4>Hey there,</h4>
 				<h1>I'm Allan Liu</h1>

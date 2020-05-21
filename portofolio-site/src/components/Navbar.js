@@ -10,6 +10,20 @@ class Navbar extends React.Component
 	{
 		super(props);
 		this.state={'NavItemActive' : ''}
+
+		this.state ={menuOpen: false}
+	}
+
+	handleStateChange(state)
+	{
+		this.setState({menuOpen: state.isOpen});
+		console.log('opened');
+	}
+
+	closeMenu()
+	{
+		this.setState({menuOpen: false});
+		console.log('closed');
 	}
 
 
@@ -28,13 +42,26 @@ class Navbar extends React.Component
 	render()
 	{
 		return (
-			<Menu>
-					<Navitem item="Home" tolink="/" activec={this.activeitem} />
-					<Navitem item="About" tolink="/about" activec={this.activeitem} />
-					<Navitem item="Education" tolink="education" activec={this.activeitem} />
-					<Navitem item="Skills" tolink="skills" activec={this.activeitem} />
-					<Navitem item="Contact" tolink="contact" activec={this.activeitem} />		
-        	</Menu>
+			<div id="outer-container">
+				<Menu 
+					pageWrapId={ "page-wrap" }
+					isOpen={this.state.menuOpen}
+					onStateChange={(state) => this.handleStateChange(state)}
+				>
+						<Navitem item="Home" tolink="/" clicked={() => this.closeMenu()} />
+						<Navitem item="About" tolink="/about" clicked={() => this.closeMenu()} />
+						<Navitem item="Education" tolink="education" clicked={() => this.closeMenu()} />
+						<Navitem item="Skills" tolink="skills" clicked={() => this.closeMenu()} />
+						<Navitem item="Contact" tolink="contact" clicked={() => this.closeMenu()} />
+						{/*
+						<Navitem item="Home" tolink="/" activec={this.activeitem} />
+						<Navitem item="About" tolink="/about" activec={this.activeitem} />
+						<Navitem item="Education" tolink="education" activec={this.activeitem} />
+						<Navitem item="Skills" tolink="skills" activec={this.activeitem} />
+						<Navitem item="Contact" tolink="contact" activec={this.activeitem} />
+					*/}
+	        	</Menu>
+	        </div>
 			);
 	}
 }

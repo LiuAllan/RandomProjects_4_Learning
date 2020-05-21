@@ -12,7 +12,7 @@ class Home extends Component
 	render()
 	{
 		return (
-			<div className="condiv home">
+			<div className="condiv home" id="page-wrap">
 				<img src={profilepic} className="profilepic" alt="" />
 				<ReactTypingEffect className="typingeffect"
 					text={["Hey, I'm Allan Liu!"]} speed={100} eraseDelay={700} 

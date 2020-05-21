@@ -8,7 +8,8 @@ class Navitem extends React.Component
 	{
 		return (
 			<li id={this.props.item}>
-				<Link to={this.props.tolink} onClick={this.props.activec.bind(this,this.props.item)}>
+				{/*<Link to={this.props.tolink} onClick={this.props.activec.bind(this,this.props.item)}>*/}
+				<Link to={this.props.tolink} onClick={this.props.clicked}>
 					{this.props.item}
 				</Link>
 			</li>
