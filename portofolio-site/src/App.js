@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
-import Skills from './contents/Skills';
+import Projects from './contents/Projects';
 import Contact from './contents/Contact';
 
 // <Route> we use to decide what content to be rendered based on the URL path
@@ -33,8 +33,8 @@ function App() {
           <Education />
         </Route>
 
-        <Route path="/skills">
-          <Skills />
+        <Route path="/project">
+          <Projects />
         </Route>
 
         <Route path="/contact">

@@ -50,9 +50,9 @@ class Navbar extends React.Component
 				>
 						<Navitem item="Home" tolink="/" clicked={() => this.closeMenu()} />
 						<Navitem item="About" tolink="/about" clicked={() => this.closeMenu()} />
-						<Navitem item="Education" tolink="education" clicked={() => this.closeMenu()} />
-						<Navitem item="Skills" tolink="skills" clicked={() => this.closeMenu()} />
-						<Navitem item="Contact" tolink="contact" clicked={() => this.closeMenu()} />
+						<Navitem item="Education" tolink="/education" clicked={() => this.closeMenu()} />
+						<Navitem item="Projects" tolink="/project" clicked={() => this.closeMenu()} />
+						<Navitem item="Contact" tolink="/contact" clicked={() => this.closeMenu()} />
 						{/*
 						<Navitem item="Home" tolink="/" activec={this.activeitem} />
 						<Navitem item="About" tolink="/about" activec={this.activeitem} />
