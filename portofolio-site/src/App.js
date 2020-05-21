@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <Navbar />
 
-        <Route exact path="/">
+        <Route exact path={process.env.PUBLIC_URL + "/"}>
           <Home />
         </Route>
 

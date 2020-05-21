@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import profilepic from '../images/headshot.png';
+import PDF from '../images/allanliu_resume.pdf';
 import ReactTypingEffect from 'react-typing-effect';
 
 import { AwesomeButton } from "react-awesome-button";
@@ -17,7 +18,7 @@ class Home extends Component
 				<ReactTypingEffect className="typingeffect"
 					text={["Hey, I'm Allan Liu!"]} speed={100} eraseDelay={700} 
 				/>
-			    <AwesomeButton type="primary" href="https://google.com" target="_blank">
+			    <AwesomeButton type="primary" href={PDF} target="_blank">
 			    	Check out my resume
 			    </AwesomeButton>		
 				<Social />

@@ -48,7 +48,7 @@ class Navbar extends React.Component
 					isOpen={this.state.menuOpen}
 					onStateChange={(state) => this.handleStateChange(state)}
 				>
-						<Navitem item="Home" tolink="/" clicked={() => this.closeMenu()} />
+						<Navitem item="Home" tolink="/home" clicked={() => this.closeMenu()} />
 						<Navitem item="About" tolink="/about" clicked={() => this.closeMenu()} />
 						<Navitem item="Education" tolink="/education" clicked={() => this.closeMenu()} />
 						<Navitem item="Projects" tolink="/project" clicked={() => this.closeMenu()} />
