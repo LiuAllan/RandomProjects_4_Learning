@@ -33,9 +33,11 @@ function App() {
           <Education />
         </Route>
 
+        {/*
         <Route path="/project">
           <Projects />
         </Route>
+        */}
 
         <Route path="/contact">
           <Contact />

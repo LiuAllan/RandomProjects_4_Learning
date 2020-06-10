@@ -1,5 +1,5 @@
 import React from 'react';
-import dataviz from '../images/dataviz.jpg';
+import dataviz from '../images/dataviz.png';
 import architecture from '../images/architecture.png';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";

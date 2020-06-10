@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import profilepic from '../images/headshot.png';
 import PDF from '../images/allanliu_resume.pdf';
+import Social from "../components/Social";
 import ReactTypingEffect from 'react-typing-effect';
-
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
-
-import Social from "../components/Social";
+import Banner from '../components/Banner';
 
 class Home extends Component
 {
@@ -14,7 +12,7 @@ class Home extends Component
 	{
 		return (
 			<div className="condiv home" id="page-wrap">
-				<img src={profilepic} className="profilepic" alt="" />
+				<Banner />
 				<ReactTypingEffect className="typingeffect"
 					text={["Hey, I'm Allan Liu!"]} speed={100} eraseDelay={700} 
 				/>
@@ -23,7 +21,7 @@ class Home extends Component
 			    </AwesomeButton>		
 				<Social />
 			</div>
-			);
+		);
 	}
 }
 

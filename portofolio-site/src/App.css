@@ -15,9 +15,11 @@
   padding: 0;
 }
 
-body
+html, body
 {
   font-family: 'Raleway';
+  height: 100%;
+  width: 100%;
 }
 
 .App
@@ -31,8 +33,8 @@ body
 .condiv
 {
   padding: 100px;
-  /*background-color:#c9cace;*/
-  background: linear-gradient(#D6D6D6, #535353);
+  background-color:#c9cace;
+  /*background: linear-gradient(#D6D6D6, #535353);*/
   flex:var(--condiv-flex);
 }
 
@@ -69,7 +71,7 @@ nav ul li
 
 .social
 {
-  position: absolute;
+  position: static;
   margin-top: 20px;
   display: flex;
   bottom: 20px;
@@ -84,7 +86,7 @@ nav ul li
 
 .social i:hover
 {
-  color: #CDCDCD;
+  color: white;
 }
 
 .subtopic
@@ -125,8 +127,10 @@ h1,h2,h3,h4,p
 
 .typingeffect
 {
+  position: static;
   font-size: var(--typing-font);
   margin-bottom: 25px;
+  padding-top: 5%;
 }
 
 .home
@@ -135,6 +139,9 @@ h1,h2,h3,h4,p
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  padding: 1%;
+  padding-left: 6%;
 }
 
 .projects
@@ -250,4 +257,50 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+/*Banner styles*/
+.banner-scale {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  /*width: 1500px;*/
+  width: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.banner-user-elem {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text {
+  color: black;
+  z-index: 1;
+  position: absolute;
+  top: -600px;
+  left: 30px;
+}
+
+.banner-subtext {
+  color: black;
+  z-index: 1;
+  position: absolute;
+  top: -600px;
+  left: 30px;
+  font-size: 0.8rem;
+}
+
+.banner-container {
+  width: 100%;
+  height: 100%;
 }

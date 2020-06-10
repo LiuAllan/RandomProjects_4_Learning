@@ -51,7 +51,7 @@ class Navbar extends React.Component
 						<Navitem item="Home" tolink="/home" clicked={() => this.closeMenu()} />
 						<Navitem item="About" tolink="/about" clicked={() => this.closeMenu()} />
 						<Navitem item="Education" tolink="/education" clicked={() => this.closeMenu()} />
-						<Navitem item="Projects" tolink="/project" clicked={() => this.closeMenu()} />
+						{/*<Navitem item="Projects" tolink="/project" clicked={() => this.closeMenu()} />*/}
 						<Navitem item="Contact" tolink="/contact" clicked={() => this.closeMenu()} />
 						{/*
 						<Navitem item="Home" tolink="/" activec={this.activeitem} />
@@ -68,4 +68,4 @@ class Navbar extends React.Component
 
 //ES6 module system
 //exports Navitem component to Navitem module. Use import to use.
-export default Navbar
+export default Navbar;
