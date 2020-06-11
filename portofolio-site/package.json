@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "rc-banner-anim": "^2.4.4",
     "rc-queue-anim": "^1.8.5",
+    "rc-tween-one": "^2.7.2",
     "react": "^16.13.1",
     "react-awesome-button": "^6.5.1",
     "react-burger-menu": "^2.6.13",

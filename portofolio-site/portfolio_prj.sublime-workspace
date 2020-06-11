@@ -1,0 +1,451 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"overflow",
+				"overflow-y\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/Navbar.js",
+			"settings":
+			{
+				"buffer_size": 2196,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Navitem.js",
+			"settings":
+			{
+				"buffer_size": 508,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.css",
+			"settings":
+			{
+				"buffer_size": 3748,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/contents/Home.js",
+			"settings":
+			{
+				"buffer_size": 796,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/contents/Projects.js",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/public",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/images"
+	],
+	"file_history":
+	[
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/public/index.html",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents/About.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents/Contact.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents/Education.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents/Skills.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/node_modules/react-burger-menu/lib/baseStyles.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/node_modules/react-burger-menu/lib/BurgerIcon.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components/Social.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/App.css",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/App.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components/Navitem.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components/Navbar.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/contents/Home.js",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/node_modules/react-awesome-button/dist/styles.css",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components/Widecard.js",
+		"/C/Users/Alllan/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Alllan/Documents/GitHub/ReactJS_Learning/portofolio-site/src/components/NavItem.js",
+		"/C/Users/Alllan/Desktop/personal_projects/ReactJS_Learning/my-app/src/index.css",
+		"/C/Users/Alllan/Desktop/personal_projects/ReactJS_Learning/my-app/src/index.js",
+		"/C/Users/Alllan/Desktop/personal_projects/ReactJS_Learning/sample code"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"C:\\Users\\Alllan\\Documents\\GitHub\\ReactJS_Learning\\portofolio-site\\node_modules\\react-burger-menu"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"overflow:",
+			"overflow: auto;",
+			"bm-menu",
+			"overflow-x",
+			"overflow",
+			");"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/Navbar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/Navitem.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2128,
+								2128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/contents/Home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								775,
+								775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/contents/Projects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio_prj.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
