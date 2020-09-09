@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 import { AppLoading } from 'expo';
 // Components
 import Home from './screens/home';
-// import * as Font from 'expo-font';
+import DrawerNavigator from './routes/drawer';
 
 const App = () => {
 
@@ -13,12 +13,13 @@ const App = () => {
     'roboto-bold': require('./assets/fonts/Roboto-Bold.ttf')
   });
 
+
   if(!fontsLoaded) {
     return <AppLoading />;
   }
 
   return (
-    <Home />
+    <DrawerNavigator />
   );
 
 }
