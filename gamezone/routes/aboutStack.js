@@ -26,7 +26,7 @@ const AboutStack = ({navigation}) => (
 				name="About"
 				component={About}
 				options={{ 
-					headerTitle: () => <Header navigation={navigation} title='About GameZone' />
+					header: () => <Header navigation={navigation} title='About GameZone' />
 					// headerStyle: { backgroundColor: '#eee'}
 				}} 
 			/>
