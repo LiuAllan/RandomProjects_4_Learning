@@ -1,27 +1,35 @@
 <template>
     <div id="add-blog">
         <h2>Add a New Blog Post</h2>
-        <form>
+        <!-- Show only If the form has not been submitted  -->
+        <form v-if="!submitted">
             <label>Blog Title</label>
             <input type="text" v-model.lazy="blog.title" required />
 
             <label>Blog Content</label>
             <textarea v-model.lazy="blog.content"></textarea>
+        
+            <div id="checkboxes">
+                <label>Ninjas</label>
+                <input type="checkbox" value="ninjas" v-model="blog.categories" />
+                <label>Wizards</label>
+                <input type="checkbox" value="wizards" v-model="blog.categories" />
+                <label>Mario</label>
+                <input type="checkbox" value="mario" v-model="blog.categories" />
+                <label>Cheese</label>
+                <input type="checkbox" value="cheese" v-model="blog.categories" />
+            </div>
+            <label>Author:</label>
+            <select v-model="blog.author">
+                <option v-for="(author, index) in authors" :key="index">{{ author }}</option>
+            </select>
+
+            <button v-on:click.prevent="post">Add Blog</button>
         </form>
-        <div id="checkboxes">
-            <label>Ninjas</label>
-            <input type="checkbox" value="ninjas" v-model="blog.categories" />
-            <label>Wizards</label>
-            <input type="checkbox" value="wizards" v-model="blog.categories" />
-            <label>Mario</label>
-            <input type="checkbox" value="mario" v-model="blog.categories" />
-            <label>Cheese</label>
-            <input type="checkbox" value="cheese" v-model="blog.categories" />
+        <!-- If submitted is true -->
+        <div v-if="submitted">
+            <h3>Post added successfully</h3>
         </div>
-        <label>Author:</label>
-        <select v-model="blog.author">
-            <option v-for="(author, index) in authors" :key="index">{{ author }}</option>
-        </select>
 
         <div id="preview">
             <h3>Preview Blog</h3>
@@ -48,9 +56,23 @@ export default {
             categories: [],
             author: '',
         },
-        authors: ['Test', 'Allan', 'The Vue Vindicator']
+        authors: ['Test', 'Allan', 'The Vue Vindicator'],
+        submitted: false,
     }
   },
+  methods: {
+        post:function() {
+            this.$http.post('http://jsonplaceholder.typicode.com/posts', {
+                title: this.blog.title,
+                body: this.blog.content,
+                userID: 1
+            })
+            .then((data) => {
+                console.log(data);
+                this.submitted = true;
+            });
+        }
+    }
 }
 </script>
 
