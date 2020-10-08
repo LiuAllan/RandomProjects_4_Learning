@@ -1,13 +1,15 @@
 <template>
-  <div id='show-blogs'>
+  <div v-theme:column="'narrow'" id='show-blogs'>
       <h1>All Blog Articles</h1>
+      <input type="text" v-model="search" placeholder="Search Blogs" />
+
       <div 
-        v-for="(blog, index) in blogs" 
+        v-for="(blog, index) in filteredBlogs" 
         :key="index" 
         class="single-blog"
       >
-          <h2>{{blog.title}}</h2>
-          <article>{{ blog.body }}</article>
+          <h2 v-rainbow>{{ blog.title | to-uppercase }}</h2>
+          <article>{{ blog.body | snippet }}</article>
       </div>
   </div>
 </template>
@@ -16,7 +18,8 @@
 export default {
     data() {
         return {
-            blogs: []
+            blogs: [],
+            search: '',
         }
     },
     // Lifecycle hook fires when the component is first made
@@ -26,6 +29,14 @@ export default {
                 console.log(data);
                 this.blogs = data.body.slice(0, 10);
             })
+    },
+    computed: {
+        filteredBlogs: function() {
+            // filter() returns a new array that passes the condition
+            return this.blogs.filter((blog) => {
+                return blog.title.match(this.search)
+            })
+        },
     }
 }
 </script>
