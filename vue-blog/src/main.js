@@ -5,12 +5,12 @@ import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
 // Custom Directives
-Vue.directive('rainbow', {
-  bind(el){
-    // Pick a random colour
-    el.style.color = "#" + Math.random().toString().slice(2,8);
-  }
-});
+// Vue.directive('rainbow', {
+//   bind(el){
+//     // Pick a random colour
+//     el.style.color = "#" + Math.random().toString().slice(2,8);
+//   }
+// });
 
 Vue.directive('theme', {
   bind(el, binding) {
@@ -29,9 +29,9 @@ Vue.directive('theme', {
 
 // Filters
 // "value" is the data being piped through
-Vue.filter('to-uppercase', function(value) {
-  return value.toUpperCase();
-});
+// Vue.filter('to-uppercase', function(value) {
+//   return value.toUpperCase();
+// });
 
 Vue.filter('snippet', function(value) {
   return value.slice(0, 100) + '...';
