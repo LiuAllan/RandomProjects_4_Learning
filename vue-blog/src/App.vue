@@ -3,6 +3,7 @@
     <!-- <addBlog /> -->
     <!-- <showBlogs /> -->
     <!-- <listBlogs /> -->
+    <Header />
     <router-view></router-view>
   </div>
 </template>
@@ -11,6 +12,7 @@
 // import addBlog from './components/addBlog.vue';
 // import showBlogs from './components/showBlogs.vue';
 // import listBlogs from './components/listBlogs.vue';
+import Header from './components/header.vue';
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     // addBlog,
     // showBlogs,
     // listBlogs,
+    Header
   }
 }
 </script>
