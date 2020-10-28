@@ -11,9 +11,11 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
+    "chartjs-plugin-zoom": "^0.7.7",
     "core-js": "^3.6.5",
     "moment": "^2.29.1",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
     "vue-charts": "^0.2.1"
   },
   "devDependencies": {
